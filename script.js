@@ -32,6 +32,13 @@ console.log(isEven(3));
  * două șiruri și le concatenează, returnând rezultatul.
  */
 
+function concatenateString(string1, string2) {
+    return string1 + string2;
+
+}
+const result = concatenateString("Alabala", "Portocala");
+console.log(result);
+
 /**
  * Verificarea Palindromului:
  * Defineste o funcție numită isPalindrome care primește un șir și
