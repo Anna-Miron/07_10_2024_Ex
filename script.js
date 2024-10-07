@@ -3,12 +3,28 @@
  * Definește o funcție numită computeSum care 
  * primește doi parametri și returnează suma acestora.
  */
+function computeSum(a, b){
+    return a + b;
+}
+
+console.log(computeSum(20, 15));
 
 /**
  * Determinarea Parității:
  * Scrie o funcție numită isEven care primește un număr 
  * și returnează true dacă numărul este par și false dacă este impar
  */
+
+function isEven(checkedNmber) {
+    let isOdd = true;
+    if (checkedNmber %2 === 0) {// structure contionala if
+    isOdd = false;    
+    }
+    return !isOdd;
+}
+console.log(isEven(12));
+console.log(isEven(3));
+
 
 /**
  * Concatenarea Șirurilor:
