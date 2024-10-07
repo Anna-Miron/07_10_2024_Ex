@@ -64,6 +64,12 @@ console.log(isPalindrome("abca"));
  * returnează un număr aleatoriu întreg între 1 și 100.
  */
 
+function generateRandomNumber() {
+    let x = Math.floor((Math.random() * 100) + 1);
+    return x;
+}
+console.log(generateRandomNumber());
+
 /**
  * Calcularea Puterii:
  * Implementează o funcție numită raiseToPower care primește 
