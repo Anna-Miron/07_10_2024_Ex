@@ -45,6 +45,19 @@ console.log(result);
  *  returnează true dacă este palindrom și false în caz contrar.
  */
 
+// cea mai simpla metoda string reverse
+
+function isPalindrome(text) {
+    let reverseText = "";
+    for(const letter of text) { //iteratie
+        reverseText = letter + reverseText;
+    }
+    return text === reverseText;
+}
+console.log(isPalindrome("aba"));
+console.log(isPalindrome("abca"));
+
+
 /**
  * Generarea unui Număr Aleatoriu:
  * Scrie o funcție numită generateRandomNumber care 
