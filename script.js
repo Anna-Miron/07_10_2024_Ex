@@ -112,4 +112,35 @@ function transformToUppercase(inputString) {
     return inputString.toUpperCase();
 }
 
+// Example function call
+const originalString = "Hello, World!";
+const transformedString = transformToUppercase(originalString);
+console.log(transformedString); // Will display "HELLO, WORLD!"
+
+/**
+ * Verificarea Numărului Prim:
+ * Scrie o funcție numită isPrimeNumber care primește un număr 
+ * și returnează true dacă este prim și false în caz contrar.
+ */
+// Implementation of the function for checking prime numbers
+function isPrimeNumber(number) {
+    if (number <= 1) {
+      return false;
+    }
+  
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) {
+        return false;
+      }
+    }
+  
+    return true;
+}
+  
+// Example function calls
+const prime = isPrimeNumber(7);
+console.log(prime); // Will display true
+
+const notPrime = isPrimeNumber(14);
+console.log(notPrime); // Will display false
 
