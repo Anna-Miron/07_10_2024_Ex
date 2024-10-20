@@ -94,5 +94,22 @@ function calculateAverage(numbers) {
     const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
     const average = sum / numbers.length;
     return average;
-  
+}
+// Exemplu de apel al funcției
+const numbersArray = [10, 15, 20, 25, 30];
+const average = calculateAverage(numbersArray);
+console.log(average); // Va afișa 20
+
+
+/**
+ * Transformarea în Majusculă:
+ * Definește o funcție numită transformToUppercase 
+ * care primește un șir și returnează șirul cu toate 
+ * literele transformate în majusculă.
+ */
+// Implementation of the function for transforming to uppercase
+function transformToUppercase(inputString) {
+    return inputString.toUpperCase();
+}
+
 
