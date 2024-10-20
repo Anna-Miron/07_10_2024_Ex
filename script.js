@@ -75,25 +75,15 @@ console.log(generateRandomNumber());
  * Implementează o funcție numită raiseToPower care primește 
  * două numere (baza și exponentul) și returnează rezultatul ridicării la putere.
  */
+// Implementarea funcției pentru ridicarea la putere
+function raiseToPower(base, exponent) {
+    return Math.pow(base, exponent);
+}
 
-/**
- * Calcularea Mediei:
- * Creează o funcție numită calculateAverage care primește 
- * un array de numere și returnează media lor.
- */
+// Exemplu de apel al funcției
+const raised = raiseToPower(2, 3);
+console.log(raised); // Va afișa 8
 
-/**
- * Transformarea în Majusculă:
- * Definește o funcție numită transformToUppercase 
- * care primește un șir și returnează șirul cu toate 
- * literele transformate în majusculă.
- */
-
-/**
- * Verificarea Numărului Prim:
- * Scrie o funcție numită isPrimeNumber care primește un număr 
- * și returnează true dacă este prim și false în caz contrar.
- */
 
   
 
