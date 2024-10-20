@@ -84,6 +84,15 @@ function raiseToPower(base, exponent) {
 const raised = raiseToPower(2, 3);
 console.log(raised); // Va afișa 8
 
-
+/**
+ * Calcularea Mediei:
+ * Creează o funcție numită calculateAverage care primește 
+ * un array de numere și returnează media lor.
+ */
+// Implementarea funcției pentru calcularea mediei
+function calculateAverage(numbers) {
+    const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+    const average = sum / numbers.length;
+    return average;
   
 
